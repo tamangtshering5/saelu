@@ -1,6 +1,9 @@
 import {
+    Ripple,
+    Input,
     Tab,
     initTE,
 } from "tw-elements";
 
-initTE({ Tab });
+initTE({ Tab,Ripple, Input });
+
