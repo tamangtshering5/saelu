@@ -28,3 +28,11 @@ window.onscroll = function () {
         document.getElementById('top-nav').style.display='block';
     }
 };
+
+function showInterview(sectionId){
+    const section=document.getElementById(sectionId);
+    // section.classList.toggle('hidden');
+    const firstChild = section.querySelector(':first-child');
+      firstChild.classList.toggle('hidden');
+    section.classList.toggle('opacity-100');
+}

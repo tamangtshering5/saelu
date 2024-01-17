@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'fontello-custom';
+    src: url('fonts/fontello-custom.eot?82408404');
+    src: url('fonts/fontello-custom.eot?82408404#iefix') format('embedded-opentype'),
+         url('fonts/fontello-custom.woff?82408404') format('woff'),
+         url('fonts/fontello-custom.ttf?82408404') format('truetype'),
+         url('fonts/fontello-custom.svg?82408404#fontello-custom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+  /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+  /*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.svg?82408404#fontello') format('svg');
+    }
+  }
+  */
+   
+   [class^="cmsmasters-icon-custom-"]:before, [class*=" cmsmasters-icon-custom-"]:before {
+    font-family: "fontello-custom";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+   
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+   
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+   
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+   
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+   
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+   
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  }
+   
+  .cmsmasters-icon-custom-facebook-6:before { content: '\e801'; } /* 'î ' */
+  .cmsmasters-icon-custom-facebook-rect-1:before { content: '\e802'; } /* 'î ‚' */
+  .cmsmasters-icon-custom-twitter-6:before { content: '\e803'; } /* 'î ƒ' */
+  .cmsmasters-icon-custom-twitter-bird-1:before { content: '\e804'; } /* 'î „' */
+  .cmsmasters-icon-custom-vimeo-3:before { content: '\e805'; } /* 'î …' */
+  .cmsmasters-icon-custom-vimeo-rect:before { content: '\e806'; } /* 'î †' */
+  .cmsmasters-icon-custom-tumblr-3:before { content: '\e807'; } /* 'î ‡' */
+  .cmsmasters-icon-custom-tumblr-rect:before { content: '\e808'; } /* 'î ˆ' */
+  .cmsmasters-icon-custom-googleplus-rect:before { content: '\e809'; } /* 'î ‰' */
+  .cmsmasters-icon-custom-github-text:before { content: '\e80a'; } /* 'î Š' */
+  .cmsmasters-icon-custom-github-5:before { content: '\e80b'; } /* 'î ‹' */
+  .cmsmasters-icon-custom-skype-4:before { content: '\e80c'; } /* 'î Œ' */
+  .cmsmasters-icon-custom-icq:before { content: '\e80d'; } /* 'î ' */
+  .cmsmasters-icon-custom-yandex:before { content: '\e80e'; } /* 'î Ž' */
+  .cmsmasters-icon-custom-yandex-rect:before { content: '\e80f'; } /* 'î ' */
+  .cmsmasters-icon-custom-vkontakte-rect:before { content: '\e810'; } /* 'î ' */
+  .cmsmasters-icon-custom-odnoklassniki:before { content: '\e811'; } /* 'î ‘' */
+  .cmsmasters-icon-custom-odnoklassniki-rect:before { content: '\e812'; } /* 'î ’' */
+  .cmsmasters-icon-custom-friendfeed:before { content: '\e813'; } /* 'î “' */
+  .cmsmasters-icon-custom-friendfeed-rect:before { content: '\e814'; } /* 'î ”' */
+  .cmsmasters-icon-custom-blogger-1:before { content: '\e815'; } /* 'î •' */
+  .cmsmasters-icon-custom-blogger-rect:before { content: '\e816'; } /* 'î –' */
+  .cmsmasters-icon-custom-deviantart:before { content: '\e817'; } /* 'î —' */
+  .cmsmasters-icon-custom-jabber:before { content: '\e818'; } /* 'î ˜' */
+  .cmsmasters-icon-custom-lastfm-3:before { content: '\e819'; } /* 'î ™' */
+  .cmsmasters-icon-custom-lastfm-rect:before { content: '\e81a'; } /* 'î š' */
+  .cmsmasters-icon-custom-linkedin-5:before { content: '\e81b'; } /* 'î ›' */
+  .cmsmasters-icon-custom-linkedin-rect:before { content: '\e81c'; } /* 'î œ' */
+  .cmsmasters-icon-custom-picasa-1:before { content: '\e81d'; } /* 'î ' */
+  .cmsmasters-icon-custom-wordpress-1:before { content: '\e81e'; } /* 'î ž' */
+  .cmsmasters-icon-custom-instagram-3:before { content: '\e81f'; } /* 'î Ÿ' */
+  .cmsmasters-icon-custom-instagram-filled:before { content: '\e820'; } /* 'î  ' */
+  .cmsmasters-icon-custom-diigo:before { content: '\e821'; } /* 'î ¡' */
+  .cmsmasters-icon-custom-box-4:before { content: '\e822'; } /* 'î ¢' */
+  .cmsmasters-icon-custom-box-rect:before { content: '\e823'; } /* 'î £' */
+  .cmsmasters-icon-custom-tudou:before { content: '\e824'; } /* 'î ¤' */
+  .cmsmasters-icon-custom-youku:before { content: '\e825'; } /* 'î ¥' */
+  .cmsmasters-icon-custom-win8:before { content: '\e826'; } /* 'î ¦' */
+  .cmsmasters-icon-custom-amex:before { content: '\e827'; } /* 'î §' */
+  .cmsmasters-icon-custom-discover:before { content: '\e828'; } /* 'î ¨' */
+  .cmsmasters-icon-custom-visa:before { content: '\e829'; } /* 'î ©' */
+  .cmsmasters-icon-custom-mastercard:before { content: '\e82a'; } /* 'î ª' */
+  .cmsmasters-icon-custom-houzz:before { content: '\e82b'; } /* 'î «' */
+  .cmsmasters-icon-custom-bandcamp:before { content: '\e82c'; } /* 'î ¬' */
+  .cmsmasters-icon-custom-codepen:before { content: '\e82d'; } /* 'î ­' */
+  .cmsmasters-icon-quote-right:before { content: '\e8f0'; } /* 'î£°' */

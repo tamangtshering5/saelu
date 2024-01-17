@@ -13,11 +13,13 @@ module.exports = {
         'sweet-corn': '#ffe785',
         'mountain-mist': '#909195',
         'ship-grey': '#3d3d47',
+        'saelu-red': '#e60012'
       },
       fontFamily: {
         'poppins': ['Poppins', 'Arial', 'Helvetica', 'Nimbus Sans L', 'sans-serif'],
         'open-sans':['"Open Sans"', 'Arial', 'Helvetica', 'Nimbus Sans L', 'sans-serif'],
         'nunito':['Nunito', 'Arial', 'Helvetica', 'Nimbus Sans L', 'sans-serif'],
+        'fontello':['fontello', 'Arial', 'Helvetica', 'Nimbus Sans L', 'sans-serif'],
       }
     }
     // screens: {
