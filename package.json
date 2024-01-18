@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "postcss ./css/tailwind.css -o ./build/tailwind.css --watch"
+    "build": "postcss ./css/tailwind.css -o ./build/tailwind.css --watch",
+    "deploy": "npm run build && cp -r ./build/* . && git add . && git commit -m 'Deploy to GitHub Pages' && git push origin gh-pages --force"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
